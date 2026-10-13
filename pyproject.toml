@@ -1,0 +1,13 @@
+[project]
+name = "sales-playbook-rag"
+version = "2.0.0"
+description = "Rep-facing playbook chat for objections — grounded in your plays, talk tracks, and win stories instead of generic advice."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
