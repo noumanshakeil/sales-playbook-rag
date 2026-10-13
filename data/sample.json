@@ -1,0 +1,12 @@
+{
+  "project": "sales-playbook-rag",
+  "resource": "plays",
+  "samples": [
+    {
+      "id": "s1",
+      "objection": "Too expensive",
+      "reply": "ROI in 2 months",
+      "stage": "negotiate"
+    }
+  ]
+}
